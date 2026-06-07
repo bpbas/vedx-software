@@ -1,19 +1,27 @@
 body{
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align:center;
-    padding-top:100px;
+    background-color:#f4f4f4;
+    padding:20px;
 }
 
 h1{
-    color:blue;
-    font-size:50px;
+    color:#0066cc;
 }
 
-p{
-    font-size:20px;
+h2{
+    color:#222;
 }
 
-button{
-    padding:10px 20px;
+p,li{
     font-size:18px;
+}
+
+ul{
+    list-style-position:inside;
+}
+
+img{
+    display:block;
+    margin:auto;
 }
